@@ -1,49 +1,47 @@
 import React from 'react'
 
-const Nav = () => {
+const Nav = ({logo}) => {
   return (
-           <header class="header_section">
-           <div class="container-fluid">
-             <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
-               <a class="navbar-brand" href="index.html">
-                 <img src="" alt="" />
-                 <span>
-                   Pole Vert / Verdek(l) Pool
+           <header className="header_section">
+<div className="navigation container-fluid">
+          <div className="row justify-content-md-center ">
+            <div className="col-md-10 col-sm-12">
+              <nav className="navbar navbar-default">
+                <a className="navbar-brand" href="index.html">
+                  <img src={logo} height="22" alt="Logo" />
+                  <span>
+                   Pole-Vert / Verdek(l) Pool 
                  </span>
-               </a>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
-               </button>
-     
-               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                 <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-                 <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html"> About </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="product.html"> Product </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="client.html"> Client </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact us</a>
-                </li>
-              </ul>
-        <form className="d-flex">
+                </a>
+                <div
+                  className="button_container"
+                  id="toggle"
+                >
+                  <span className="black top"></span>
+                  <span className="black middle"></span>
+                  <span className="black bottom"></span>
+                </div>
+                <div className="overlay" id="overlay">
+                     <nav className="overlay-menu">
+                      <ul>
+                        <li> <a href="/class">Classes</a></li>
+                        <li><a href="/instructors">Instructors</a></li>
+                        <li><a href="/shop">Pole Fit Gear</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                      </ul>
+                      <form className="d-flex">
           <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
           <button className="btn btn-outline-success" type="submit">Search</button>
         </form>
-                 </div>
-               </div>
-             </nav>
-           </div>
+                     </nav>
+                      </div>
+              
+              </nav>
+            </div>
+          </div>
+        </div> 
          </header>
+         
   )
 }
 

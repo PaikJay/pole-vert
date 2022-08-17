@@ -9,7 +9,11 @@ const AboutPage = () => {
           About Us
         </h2>
         <p>
-         
+        <div className="row">
+            <div className="col-md-7 offset-md-1 col-sm-12">
+              <p className="pb-5 pt-5"> Pole dancing studio</p>
+            </div>
+          </div>
         </p>
         <div>
           <a href="">
