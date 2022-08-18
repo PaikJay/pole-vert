@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4d2b11c8.css",
+    "main.js": "/static/js/main.bb106f9f.js",
+    "static/media/photo-4.png": "/static/media/photo-4.9098cd1a284888e2b45b.png",
+    "static/media/CabinCondensed-Regular.ttf": "/static/media/CabinCondensed-Regular.7633b5752141cd007456.ttf",
+    "static/media/photo-3.jpeg": "/static/media/photo-3.f5e8f5273ced0d8d398f.jpeg",
+    "static/media/photo-2.jpeg": "/static/media/photo-2.3064490f8dd2479a1ce3.jpeg",
+    "static/media/photo-1.jpeg": "/static/media/photo-1.e80b7041543b7724da39.jpeg",
+    "static/media/logo-black2.svg": "/static/media/logo-black2.057cc7b2bb7196f6985d352cc5952db1.svg",
+    "index.html": "/index.html",
+    "main.4d2b11c8.css.map": "/static/css/main.4d2b11c8.css.map",
+    "main.bb106f9f.js.map": "/static/js/main.bb106f9f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d2b11c8.css",
+    "static/js/main.bb106f9f.js"
+  ]
+}
